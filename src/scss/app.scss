@@ -161,6 +161,10 @@ body {
             background-position-y: center;
             background-repeat: no-repeat;
             min-height: 650px;
+            @include breakpoints( x-large,
+            xxx-large) {
+                min-height: 650px;
+            }
             @include breakpoints( large,
             x-large) {
                 min-height: 500px;

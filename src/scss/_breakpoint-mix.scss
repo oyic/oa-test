@@ -7,7 +7,7 @@
 // @param {string|number} $to - Named breakpoint or width value for max-width
 // @param {string} $media - Media query type value, https://www.w3.org/TR/mediaqueries-4/#media-types
 // Named Breakpoint Values
-$breakpoints: ( small: 320px, phone:375px, medium: 768px, large: 1024px, x-large: 1600px, xx-large: 2800px, );
+$breakpoints: ( small: 320px, phone:375px, medium: 768px, large: 1024px, x-large: 1280px, xx-large:1640px, xxx-large: 2800px, );
 // SCSS Breakpoint shortcut mixin
 @mixin breakpoints($from: none, $to: none, $media: all) {
     // Set some empty min + max values
