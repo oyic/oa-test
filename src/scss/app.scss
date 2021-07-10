@@ -78,11 +78,16 @@ body {
             }
             .hero-title {
                 h1 {
+                    @include breakpoints( x-large,
+                    xx-large) {
+                        font-size: 3.5rem;
+                    }
                     @include breakpoints( large,
                     x-large) {
                         font-size: 3.5rem;
                     }
-                    @include breakpoints(medium) {
+                    @include breakpoints(phone,
+                    medium) {
                         font-size: 3rem;
                         text-align: center;
                         margin-bottom: 1rem;
@@ -94,7 +99,7 @@ body {
                         margin-bottom: 1rem;
                     }
                     font-size: 4.5rem;
-                    font-weight: 800;
+                    font-weight: 700;
                     color: black;
                     line-height: 1;
                     margin: 1rem 0 2rem;
