@@ -134,9 +134,9 @@ body {
                     font-size: 25px;
                     @include button;
                     @include rounded(5px);
-                    @include shadow;
+                    // @include shadow;
                     @include color($lightcyan);
-                    color: black;
+                    color: $blue;
                     &.primary {
                         @include color($blue);
                         color: white;
